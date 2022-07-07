@@ -21,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT'
+    compileOnly 'org.spigotmc:spigot-api:1.19-R0.1-SNAPSHOT'
     implementation 'org.spongepowered:mixin:0.8.4'
     implementation 'com.google.guava:guava:30.1.1-jre'
     implementation 'org.jetbrains:annotations:22.0.0'
@@ -30,6 +30,7 @@ dependencies {
     implementation "org.ow2.asm:asm-commons:${project.asm_version}"
     implementation "org.ow2.asm:asm-tree:${project.asm_version}"
     implementation "org.ow2.asm:asm-util:${project.asm_version}"
+    implementation "org.apache.commons:commons-lang3:3.10"
 }
 
 jar {

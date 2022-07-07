@@ -24,7 +24,7 @@ import java.util.jar.JarFile;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class PaperShelledPlugin extends PluginBase {
+public abstract class PaperShelledPlugin extends PluginBase {
     private boolean isEnabled = false;
     private final PaperShelledPluginLoader loader;
     private final File file;
